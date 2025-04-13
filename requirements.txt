@@ -1,0 +1,21 @@
+# Django!
+django==5.2
+django-extensions==4.1
+django-cors-headers==4.7
+
+# others
+ipython==9.1
+psycopg2-binary==2.9.3
+requests==2.32
+dotenv==0.9.9
+
+# VS Code debugging
+black==25.1
+
+# Testing
+pytest-django==4.11
+pytest-socket==0.7
+pytest-cov==6.1
+
+# Django Debug Toolbar
+django-debug-toolbar==5.1

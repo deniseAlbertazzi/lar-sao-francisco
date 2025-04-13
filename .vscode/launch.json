@@ -1,0 +1,56 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Django: runserver",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/larsaofrancisco/manage.py",
+      "args": [
+        "runserver",
+        "0.0.0.0:8000",
+        // "--noreload",
+        // "--nothreading"
+      ],
+      // "justMyCode": false, // Uncomment to set breakpoints in python packages installed via pip
+      "django": true
+    },
+    {
+      "name": "Django: shell",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/larsaofrancisco/manage.py",
+      "args": [
+        "shell",
+      ],
+      // "justMyCode": false, // Uncomment to set breakpoints in python packages installed via pip
+      "django": true
+    },
+    {
+      "name": "Django: migrate",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/larsaofrancisco/manage.py",
+      "args": [
+        "migrate",
+      ],
+      // "justMyCode": false, // Uncomment to set breakpoints in python packages installed via pip
+      "django": true
+    },
+    {
+      "name": "Django: test",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/larsaofrancisco/manage.py",
+      "args": [
+        "test",
+        "--noinput"
+      ],
+      // "justMyCode": false, // Uncomment to set breakpoints in python packages installed via pip
+      "django": true
+    },
+  ]
+}

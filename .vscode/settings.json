@@ -1,0 +1,39 @@
+{
+  "python.pythonPath": "/usr/local/bin/python",
+  "python.autoComplete.extraPaths": [
+    "/code/larsaofrancisco"
+  ],
+  "editor.rulers": [
+    100
+  ],
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/._*": true,
+    "**/*.pyc": true
+  },
+  "python.languageServer": "Pylance",
+  "python.analysis.extraPaths": [
+    "/code/larsaofrancisco"
+  ],
+  "black-formatter.args": [
+    "--line-length",
+    "99"
+  ],
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "python.testing.pytestArgs": [
+    "larsaofrancisco"
+  ],
+  "python.formatting.provider": "none",
+  "pythonTestExplorer.testFramework": "pytest",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  }
+}
